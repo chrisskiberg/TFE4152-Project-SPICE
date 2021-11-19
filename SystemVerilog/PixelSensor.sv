@@ -10,8 +10,8 @@ module PIXEL_SENSOR
 
    );
 
-   logic [7:0]    v_erase = 154; // 1.2V in 7-shifted fixed point representation
-   logic [7:0]    lsb = 1;       // v_erase/255
+   logic [7:0]    v_erase = 255;
+   logic [7:0]    lsb = 1;
 
    reg   [7:0]    tmp;
    logic          cmp;

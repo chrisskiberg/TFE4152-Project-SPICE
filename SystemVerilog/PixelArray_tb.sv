@@ -8,7 +8,7 @@ module pixelArray_tb;
    parameter integer clk_period = clk_half_period*2;
    parameter integer short_exposure_time = 25*clk_period;
    parameter integer long_exposure_time = 75*clk_period;
-   parameter integer conversion_time = 150*clk_period;
+   parameter integer conversion_time = 255*clk_period;
    parameter integer read_time = 5*clk_period;
    parameter integer sim_end = clk_half_period*600;
    always #clk_half_period clk=~clk;

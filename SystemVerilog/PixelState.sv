@@ -17,7 +17,7 @@ module PIXEL_STATE
    //State duration in clock cycles
    parameter integer c_erase = 5;
    parameter integer c_expose = 75;
-   parameter integer c_convert = 150;
+   parameter integer c_convert = 255;
    parameter integer c_read_per_pixel = 1;
    parameter integer c_read = c_read_per_pixel * num_pixels;
 
